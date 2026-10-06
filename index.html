@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wafi - Sofea Adlina</title>
+    <title> Alif Wafi </title>
     <style>
         * {
             margin: 0;
@@ -13,30 +13,20 @@
         html, body {
             width: 100%;
             height: 100%;
-            overflow: hidden;
+            overflow: auto; /* Allows natural scrolling inside the page */
             background-color: #000;
         }
-        .canva-container {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-        }
         iframe {
-            position: absolute;
             width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
+            height: 100vh; /* Takes up full viewport height */
             border: none;
+            display: block;
         }
     </style>
 </head>
 <body>
 
-    <div class="canva-container">
-        <iframe loading="lazy" src="https://www.canva.com/design/DAHXGvwfEbg/E9SSyNYgm2xO14X82nuw-Q/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen autoplay"></iframe>
-    </div>
+    <iframe src="https://www.canva.com/design/DAHXGvwfEbg/E9SSyNYgm2xO14X82nuw-Q/view?embed" allowfullscreen="true" allow="fullscreen autoplay"></iframe>
 
 </body>
 </html>
